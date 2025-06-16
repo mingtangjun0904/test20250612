@@ -20,3 +20,14 @@ git merge origin/dev
 
 # 解决冲突（如有）后推送
 git push origin main
+
+
+git的一般使用
+# 1. 修改文件后添加到暂存区
+git add README.md
+
+# 2. 提交更改（这一步你漏掉了）
+git commit -m "更新 README 内容"
+
+# 3. 推送更改到远程仓库
+git push
