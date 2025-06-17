@@ -1,6 +1,7 @@
+/*span是联级元素，button也是联级元素*/
 span {
      /*边距*/
-     padding: 5px;/*示例值*/
+     padding: 5px 200px;/*示例值*/
      border: 2px solid #000;
      margin: 10px;
      /*字体*/
@@ -12,3 +13,20 @@ span {
      text-align: center;
 
 }
+
+/*h1是块级元素*/
+h1 {
+     /*边距*/
+     padding: 5px 200px;/*示例值*/
+     border: 2px solid #000;
+     margin: 10px;
+     /*字体*/
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+     font-weight: normal;
+     /*颜色*/
+     color: #333;
+     text-align: center;
+
+}
+
